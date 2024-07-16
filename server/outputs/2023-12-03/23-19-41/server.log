@@ -1,0 +1,6 @@
+[2023-12-03 23:19:43,679][flwr][INFO] - Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+[2023-12-03 23:19:43,735][flwr][INFO] - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+[2023-12-03 23:19:43,735][flwr][INFO] - Initializing global parameters
+[2023-12-03 23:19:43,735][flwr][INFO] - Requesting initial parameters from one random client
+[2023-12-03 23:19:58,155][flwr][INFO] - Received initial parameters from one random client
+[2023-12-03 23:19:58,155][flwr][INFO] - Evaluating initial parameters

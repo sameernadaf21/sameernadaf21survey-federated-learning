@@ -1,0 +1,27 @@
+[2023-12-02 23:51:14,860][flwr][INFO] - Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+[2023-12-02 23:51:14,895][flwr][INFO] - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+[2023-12-02 23:51:14,895][flwr][INFO] - Initializing global parameters
+[2023-12-02 23:51:14,896][flwr][INFO] - Requesting initial parameters from one random client
+[2023-12-02 23:51:23,859][flwr][INFO] - Received initial parameters from one random client
+[2023-12-02 23:51:23,860][flwr][INFO] - Evaluating initial parameters
+[2023-12-02 23:51:27,649][flwr][INFO] - initial parameters (loss, other metrics): 181.9684019088745, {'accuracy': 0.107}
+[2023-12-02 23:51:27,652][flwr][INFO] - FL starting
+[2023-12-02 23:51:27,656][flwr][DEBUG] - fit_round 1: strategy sampled 1 clients (out of 1)
+[2023-12-02 23:52:41,579][flwr][DEBUG] - fit_round 1 received 1 results and 0 failures
+[2023-12-02 23:52:41,588][flwr][WARNING] - No fit_metrics_aggregation_fn provided
+[2023-12-02 23:52:48,436][flwr][INFO] - fit progress: (1, 113.54872500896454, {'accuracy': 0.4698}, 80.78706600000001)
+[2023-12-02 23:52:48,448][flwr][INFO] - evaluate_round 1: no clients selected, cancel
+[2023-12-02 23:52:48,449][flwr][DEBUG] - fit_round 2: strategy sampled 1 clients (out of 1)
+[2023-12-02 23:54:06,961][flwr][DEBUG] - fit_round 2 received 1 results and 0 failures
+[2023-12-02 23:54:14,796][flwr][INFO] - fit progress: (2, 88.45942807197571, {'accuracy': 0.5998}, 167.1428362)
+[2023-12-02 23:54:14,800][flwr][INFO] - evaluate_round 2: no clients selected, cancel
+[2023-12-02 23:54:14,805][flwr][DEBUG] - fit_round 3: strategy sampled 1 clients (out of 1)
+[2023-12-02 23:55:18,190][flwr][DEBUG] - fit_round 3 received 1 results and 0 failures
+[2023-12-02 23:55:24,860][flwr][INFO] - fit progress: (3, 65.25499218702316, {'accuracy': 0.7187}, 237.2130964)
+[2023-12-02 23:55:24,860][flwr][INFO] - evaluate_round 3: no clients selected, cancel
+[2023-12-02 23:55:24,860][flwr][INFO] - FL finished in 237.2154408
+[2023-12-02 23:55:24,871][flwr][INFO] - app_fit: losses_distributed []
+[2023-12-02 23:55:24,873][flwr][INFO] - app_fit: metrics_distributed_fit {}
+[2023-12-02 23:55:24,874][flwr][INFO] - app_fit: metrics_distributed {}
+[2023-12-02 23:55:24,874][flwr][INFO] - app_fit: losses_centralized [(0, 181.9684019088745), (1, 113.54872500896454), (2, 88.45942807197571), (3, 65.25499218702316)]
+[2023-12-02 23:55:24,875][flwr][INFO] - app_fit: metrics_centralized {'accuracy': [(0, 0.107), (1, 0.4698), (2, 0.5998), (3, 0.7187)]}

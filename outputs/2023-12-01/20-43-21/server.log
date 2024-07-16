@@ -1,0 +1,17 @@
+[2023-12-01 20:43:21,968][flwr][INFO] - Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+[2023-12-01 20:43:22,296][flwr][INFO] - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+[2023-12-01 20:43:22,296][flwr][INFO] - Initializing global parameters
+[2023-12-01 20:43:22,296][flwr][INFO] - Requesting initial parameters from one random client
+[2023-12-01 20:51:51,814][flwr][INFO] - Received initial parameters from one random client
+[2023-12-01 20:51:51,814][flwr][INFO] - Evaluating initial parameters
+[2023-12-01 20:58:55,129][grpc._server][ERROR] - Exception iterating responses: 
+Traceback (most recent call last):
+  File "C:\Users\samee\anaconda3\envs\fed\lib\site-packages\grpc\_server.py", line 461, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "C:\Users\samee\anaconda3\envs\fed\lib\site-packages\flwr\server\grpc_server\flower_service_servicer.py", line 105, in Join
+    ins_wrapper: InsWrapper = next(ins_wrapper_iterator)
+  File "C:\Users\samee\anaconda3\envs\fed\lib\site-packages\flwr\server\grpc_server\grpc_bridge.py", line 163, in ins_wrapper_iterator
+    self._raise_if_closed()
+  File "C:\Users\samee\anaconda3\envs\fed\lib\site-packages\flwr\server\grpc_server\grpc_bridge.py", line 78, in _raise_if_closed
+    raise GrpcBridgeClosed()
+flwr.server.grpc_server.grpc_bridge.GrpcBridgeClosed

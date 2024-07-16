@@ -1,0 +1,9 @@
+[2024-07-16 14:25:39,575][flwr][INFO] - Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=None)
+[2024-07-16 14:25:39,812][flwr][INFO] - Flower ECE: gRPC server running (3 rounds), SSL is disabled
+[2024-07-16 14:25:39,824][flwr][INFO] - Initializing global parameters
+[2024-07-16 14:25:39,825][flwr][INFO] - Requesting initial parameters from one random client
+[2024-07-16 14:26:05,715][flwr][INFO] - Received initial parameters from one random client
+[2024-07-16 14:26:05,715][flwr][INFO] - Evaluating initial parameters
+[2024-07-16 14:28:25,440][flwr][INFO] - initial parameters (loss, other metrics): 182.13309836387634, {'accuracy': 0.1021}
+[2024-07-16 14:28:25,440][flwr][INFO] - FL starting
+[2024-07-16 14:28:25,440][flwr][DEBUG] - fit_round 1: strategy sampled 1 clients (out of 1)
